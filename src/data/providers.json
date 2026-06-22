@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "ovhcloud",
+    "name": "OVHcloud AI Endpoints",
+    "country": "FR",
+    "baseUrl": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+    "signupUrl": "https://endpoints.ai.cloud.ovh.net/",
+    "requiresKey": false,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "llm7",
+    "name": "LLM7.io",
+    "country": "EU",
+    "baseUrl": "https://api.llm7.io/v1",
+    "signupUrl": "https://llm7.io/",
+    "requiresKey": false,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "pollinations",
+    "name": "Pollinations",
+    "country": "DE",
+    "baseUrl": "https://text.pollinations.ai/openai",
+    "signupUrl": "https://pollinations.ai/",
+    "requiresKey": false,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "cerebras",
+    "name": "Cerebras Cloud",
+    "country": "US",
+    "baseUrl": "https://api.cerebras.ai/v1",
+    "signupUrl": "https://cloud.cerebras.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "groq",
+    "name": "Groq Cloud",
+    "country": "US",
+    "baseUrl": "https://api.groq.com/openai/v1",
+    "signupUrl": "https://console.groq.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "nvidia-nim",
+    "name": "NVIDIA NIM",
+    "country": "US",
+    "baseUrl": "https://integrate.api.nvidia.com/v1",
+    "signupUrl": "https://build.nvidia.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "google-aistudio",
+    "name": "Google AI Studio (Gemini)",
+    "country": "US",
+    "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "signupUrl": "https://aistudio.google.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "country": "CA",
+    "baseUrl": "https://api.cohere.ai/compatibility/v1",
+    "signupUrl": "https://dashboard.cohere.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "github-models",
+    "name": "GitHub Models",
+    "country": "US",
+    "baseUrl": "https://models.github.ai/inference",
+    "signupUrl": "https://github.com/marketplace/models",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "cloudflare-workers-ai",
+    "name": "Cloudflare Workers AI",
+    "country": "US",
+    "baseUrl": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signupUrl": "https://dash.cloudflare.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "huggingface",
+    "name": "HuggingFace Router",
+    "country": "US",
+    "baseUrl": "https://router.huggingface.co/v1",
+    "signupUrl": "https://huggingface.co/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "mistral",
+    "name": "Mistral La Plateforme",
+    "country": "FR",
+    "baseUrl": "https://api.mistral.ai/v1",
+    "signupUrl": "https://console.mistral.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "sambanova",
+    "name": "SambaNova Cloud",
+    "country": "US",
+    "baseUrl": "https://api.sambanova.ai/v1",
+    "signupUrl": "https://cloud.sambanova.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "country": "US",
+    "baseUrl": "https://openrouter.ai/api/v1",
+    "signupUrl": "https://openrouter.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "zai",
+    "name": "Z.AI (Zhipu)",
+    "country": "CN",
+    "baseUrl": "https://api.z.ai/api/paas/v4",
+    "signupUrl": "https://open.bigmodel.cn/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "siliconflow",
+    "name": "SiliconFlow",
+    "country": "CN",
+    "baseUrl": "https://api.siliconflow.com/v1",
+    "signupUrl": "https://siliconflow.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "aion-labs",
+    "name": "Aion Labs",
+    "country": "US",
+    "baseUrl": "https://api.aionlabs.io/v1",
+    "signupUrl": "https://aionlabs.io/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "ollama-cloud",
+    "name": "Ollama Cloud",
+    "country": "US",
+    "baseUrl": "https://ollama.com/api",
+    "signupUrl": "https://ollama.com/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  },
+  {
+    "slug": "modelscope",
+    "name": "ModelScope (Alibaba)",
+    "country": "CN",
+    "baseUrl": "https://api-inference.modelscope.cn/v1",
+    "signupUrl": "https://modelscope.cn/",
+    "requiresKey": true,
+    "requiresPhoneVerification": true,
+    "requiresCard": false,
+    "dataUsedForTraining": true
+  },
+  {
+    "slug": "kilo-code",
+    "name": "Kilo Code",
+    "country": "US",
+    "baseUrl": "https://kilocode.ai/api/openrouter",
+    "signupUrl": "https://kilocode.ai/",
+    "requiresKey": true,
+    "requiresPhoneVerification": false,
+    "requiresCard": false,
+    "dataUsedForTraining": false
+  }
+]

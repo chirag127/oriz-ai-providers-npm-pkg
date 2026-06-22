@@ -1,0 +1,62 @@
+{
+  "name": "@chirag127/oriz-ai-providers",
+  "version": "0.1.0",
+  "description": "Thin wrapper around 20 free LLM APIs (OVHcloud, LLM7, Pollinations, Cerebras, Groq, NVIDIA NIM, OpenRouter, Google AI Studio, Cohere, GitHub Models, Cloudflare Workers AI, HuggingFace, Mistral, SambaNova, Z.AI, SiliconFlow, Aion Labs, Ollama Cloud, ModelScope, Kilo Code). OpenAI SDK-compatible client with priority-based fallback chain.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Chirag Singhal <chirag@oriz.in>",
+  "homepage": "https://github.com/chirag127/oriz-ai-providers-npm-pkg#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirag127/oriz-ai-providers-npm-pkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chirag127/oriz-ai-providers-npm-pkg/issues"
+  },
+  "keywords": [
+    "chirag127",
+    "oriz",
+    "ai",
+    "llm",
+    "openai",
+    "groq",
+    "cerebras",
+    "nvidia-nim",
+    "openrouter",
+    "ovhcloud",
+    "llm7",
+    "free-llm",
+    "fallback",
+    "rate-limit"
+  ],
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./data-loader": "./src/data-loader.ts",
+    "./fallback": "./src/fallback.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}

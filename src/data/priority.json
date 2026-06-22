@@ -1,0 +1,28 @@
+{
+  "default": [
+    "ovhcloud",
+    "llm7",
+    "pollinations",
+    "cerebras",
+    "groq",
+    "nvidia-nim",
+    "openrouter",
+    "google-aistudio",
+    "cloudflare-workers-ai",
+    "github-models",
+    "sambanova",
+    "huggingface",
+    "mistral",
+    "cohere",
+    "zai",
+    "siliconflow",
+    "modelscope",
+    "aion-labs",
+    "kilo-code",
+    "ollama-cloud"
+  ],
+  "highVolume": ["llm7", "cerebras", "groq", "openrouter", "sambanova"],
+  "reasoning": ["nvidia-nim", "sambanova", "huggingface", "llm7"],
+  "vision": ["cloudflare-workers-ai", "github-models", "openrouter", "mistral", "ovhcloud"],
+  "code": ["mistral", "openrouter", "huggingface"]
+}
